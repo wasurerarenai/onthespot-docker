@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-ARG ONTHESPOT_REPO=https://github.com/jayrez/onthespot-dockerized.git
+ARG ONTHESPOT_REPO=https://github.com/wasurerarenai/onthespot-dockerized.git
 ARG ONTHESPOT_BRANCH=search-filter-fix
 
 ENV PYTHONUNBUFFERED=1 \
