@@ -1,6 +1,6 @@
 services:
   onthespot:
-    image: ghcr.io/jayrez/onthespot-docker:latest
+    image: ghcr.io/wasurerarenai/onthespot-docker:latest
     container_name: onthespot
     ports:
       - "8083:5000" # Maps Host 8083 to Container 5000, change 8083 to whatever port you want
