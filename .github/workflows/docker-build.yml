@@ -40,4 +40,4 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/jayrez/onthespot-docker:latest
+            ghcr.io/wasurerarenai/onthespot-docker:latest

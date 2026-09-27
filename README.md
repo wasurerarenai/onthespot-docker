@@ -1,4 +1,4 @@
-[![Build and Publish Docker Image](https://github.com/jayrez/onthespot-docker/actions/workflows/docker-publish.yml/badge.svg?event=push)](https://github.com/jayrez/onthespot-docker/actions/workflows/docker-publish.yml)
+[![Build and Publish Docker Image](https://github.com/wasurerarenai/onthespot-docker/actions/workflows/docker-publish.yml/badge.svg?event=push)](https://github.com/wasurerarenai/onthespot-docker/actions/workflows/docker-publish.yml)
 
 # OnTheSpot Docker (Automated Build)
 
@@ -28,7 +28,7 @@ Just create a `compose.yml` file and paste the following:
 ``` yaml
 services:
   onthespot:
-    image: ghcr.io/jayrez/onthespot-docker:latest
+    image: ghcr.io/wasurerarenai/onthespot-docker:latest
     container_name: onthespot
     ports:
       - "8083:5000" # Maps Host 8083 to Container 5000, change 8083 to whatever port you want
@@ -112,7 +112,7 @@ If you want to modify the Docker configuration:
 ```{=html}
 <!-- -->
 ```
-    ghcr.io/jayrez/onthespot-docker
+    ghcr.io/wasurerarenai/onthespot-docker
 
 ------------------------------------------------------------------------
 
@@ -132,5 +132,5 @@ OnTheSpot is intended to be used in compliance with DMCA, Section 1201, for educ
 OnTheSpot contributors are not responsible for any misuse of the program or source code.
 
 ------------------------------------------------------------------------
-For further information, please see the following [**disclaimer**](https://github.com/jayrez/onthespot-docker/blob/main/Disclaimer.md)
+For further information, please see the following [**disclaimer**](https://github.com/wasurerarenai/onthespot-docker/blob/main/Disclaimer.md)
 >>>>>>> 6c1e20032172c5e641ce2550b4e0f20447182a80
